@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_calificaciones"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Calificaciones" />
+    <item
+        android:id="@+id/menu_asistencia"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Asistencia" />
+    <item
+        android:id="@+id/menu_edades"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:title="Edades" />
+    <item
+        android:id="@+id/menu_puesto"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="Puesto" />
+</menu>

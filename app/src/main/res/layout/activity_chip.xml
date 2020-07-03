@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividad.ChipActivity">
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipKotlin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="kotlin"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:checkedIcon="@android:drawable/btn_star_big_on"
+            app:closeIcon="@android:drawable/ic_delete"
+            app:closeIconVisible="true" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipJava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="java"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:checkedIcon="@android:drawable/checkbox_on_background"
+            app:closeIcon="@android:drawable/ic_delete"
+            app:closeIconVisible="true" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipRuby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Ruby"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:checkedIcon="@android:drawable/btn_star_big_on"
+            app:closeIcon="@android:drawable/ic_delete"
+            app:closeIconVisible="true" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipFlutter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Flutter"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:checkedIcon="@android:drawable/btn_star_big_on"
+            app:closeIcon="@android:drawable/ic_delete"
+            app:closeIconVisible="true" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipSwift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Swift"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:checkedIcon="@android:drawable/btn_star_big_on"
+            app:closeIcon="@android:drawable/ic_delete"
+            app:closeIconVisible="true" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipAngular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Angular"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:checkedIcon="@android:drawable/btn_star_big_on"
+            app:closeIcon="@android:drawable/ic_delete"
+            app:closeIconVisible="true" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipGolang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Golang"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:checkedIcon="@android:drawable/btn_star_big_on"
+            app:closeIcon="@android:drawable/ic_delete"
+            app:closeIconVisible="true" />
+
+    </com.google.android.material.chip.ChipGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
